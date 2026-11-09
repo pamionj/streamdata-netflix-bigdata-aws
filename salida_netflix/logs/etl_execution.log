@@ -1,0 +1,44 @@
+2026-11-09 17:42:40,270 [INFO] =============================================================
+2026-11-09 17:42:40,270 [INFO] INICIO DEL PROCESO ETL - STREAMDATA ANALYTICS (NETFLIX DATASET)
+2026-11-09 17:42:40,271 [INFO] =============================================================
+2026-11-09 17:42:40,271 [INFO] Archivo detectado: netflix_titles.csv (3447667 bytes / 3.29 MiB)
+2026-11-09 17:42:40,299 [INFO] Registros leídos: 8807 filas, 12 columnas.
+2026-11-09 17:42:40,299 [INFO] Validación de esquema: 12 columnas obligatorias presentes y correctas.
+2026-11-09 17:42:40,503 [INFO] Validación de identificadores (show_id): 0 nulos, 0 duplicados.
+2026-11-09 17:42:40,512 [INFO] Reparando anomalía de rating desplazado a duration (3 filas)...
+2026-11-09 17:42:40,520 [INFO] Fechas parseadas correctamente. Fechas ausentes preservadas como nulas: 8719
+2026-11-09 17:42:40,554 [INFO] Calculando polaridad léxica sobre description con TextBlob...
+2026-11-09 17:42:42,601 [INFO] Distribución de tono de sinopsis: {'Neutro': np.int64(3718), 'Positivo': np.int64(3342), 'Negativo': np.int64(1747)}
+2026-11-09 17:42:43,307 [INFO] Tabla puente países generada: 10012 filas, 122 países distintos.
+2026-11-09 17:42:43,309 [INFO] Tabla puente géneros generada: 19323 filas, 42 géneros distintos.
+2026-11-09 17:42:43,453 [INFO] Guardado: salida_netflix/processed/netflix_titles_clean.csv (3979794 bytes)
+2026-11-09 17:42:43,454 [INFO] Guardado: salida_netflix/processed/netflix_title_countries.csv (175399 bytes)
+2026-11-09 17:42:43,454 [INFO] Guardado: salida_netflix/processed/netflix_title_genres.csv (425324 bytes)
+2026-11-09 17:42:43,454 [INFO] Guardado: salida_netflix/curated/netflix_sentiment_summary.csv (101 bytes)
+2026-11-09 17:42:43,454 [INFO] Guardado: salida_netflix/curated/netflix_catalog_kpis.csv (887 bytes)
+2026-11-09 17:42:43,457 [INFO] Resumen JSON generado en salida_netflix/logs/etl_summary.json
+2026-11-09 17:42:43,457 [INFO] =============================================================
+2026-11-09 17:42:43,457 [INFO] PROCESO ETL FINALIZADO CON ÉXITO
+2026-11-09 17:42:43,457 [INFO] =============================================================
+2026-11-09 17:44:04,412 [INFO] =============================================================
+2026-11-09 17:44:04,412 [INFO] INICIO DEL PROCESO ETL - STREAMDATA ANALYTICS (NETFLIX DATASET)
+2026-11-09 17:44:04,412 [INFO] =============================================================
+2026-11-09 17:44:04,412 [INFO] Archivo detectado: netflix_titles.csv (3447667 bytes / 3.29 MiB)
+2026-11-09 17:44:04,450 [INFO] Registros leídos: 8807 filas, 12 columnas.
+2026-11-09 17:44:04,451 [INFO] Validación de esquema: 12 columnas obligatorias presentes y correctas.
+2026-11-09 17:44:04,884 [INFO] Validación de identificadores (show_id): 0 nulos, 0 duplicados.
+2026-11-09 17:44:04,893 [INFO] Reparando anomalía de rating desplazado a duration (3 filas)...
+2026-11-09 17:44:04,915 [INFO] Fechas parseadas correctamente. Fechas ausentes preservadas como nulas: 10
+2026-11-09 17:44:05,006 [INFO] Calculando polaridad léxica sobre description con TextBlob...
+2026-11-09 17:44:07,545 [INFO] Distribución de tono de sinopsis: {'Neutro': np.int64(3718), 'Positivo': np.int64(3342), 'Negativo': np.int64(1747)}
+2026-11-09 17:44:08,222 [INFO] Tabla puente países generada: 10012 filas, 122 países distintos.
+2026-11-09 17:44:08,225 [INFO] Tabla puente géneros generada: 19323 filas, 42 géneros distintos.
+2026-11-09 17:44:08,367 [INFO] Guardado: salida_netflix/processed/netflix_titles_clean.csv (4112678 bytes)
+2026-11-09 17:44:08,367 [INFO] Guardado: salida_netflix/processed/netflix_title_countries.csv (175399 bytes)
+2026-11-09 17:44:08,367 [INFO] Guardado: salida_netflix/processed/netflix_title_genres.csv (425324 bytes)
+2026-11-09 17:44:08,367 [INFO] Guardado: salida_netflix/curated/netflix_sentiment_summary.csv (101 bytes)
+2026-11-09 17:44:08,367 [INFO] Guardado: salida_netflix/curated/netflix_catalog_kpis.csv (887 bytes)
+2026-11-09 17:44:08,370 [INFO] Resumen JSON generado en salida_netflix/logs/etl_summary.json
+2026-11-09 17:44:08,370 [INFO] =============================================================
+2026-11-09 17:44:08,370 [INFO] PROCESO ETL FINALIZADO CON ÉXITO
+2026-11-09 17:44:08,370 [INFO] =============================================================

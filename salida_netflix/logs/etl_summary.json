@@ -1,0 +1,17 @@
+{
+    "fecha_ejecucion": "2026-11-09 17:44:08",
+    "archivo_origen": "netflix_titles.csv",
+    "registros_totales": 8807,
+    "peliculas": 6131,
+    "series": 2676,
+    "relaciones_pais": 10012,
+    "paises_distintos": 122,
+    "relaciones_genero": 19323,
+    "generos_distintos": 42,
+    "fechas_nulas": 10,
+    "duraciones_reparadas": 3,
+    "polaridad_positiva": 3342,
+    "polaridad_neutra": 3718,
+    "polaridad_negativa": 1747,
+    "estado": "EXITO_VALIDADO"
+}

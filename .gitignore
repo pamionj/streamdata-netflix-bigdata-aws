@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Temporary and log outputs
+*.tmp
+extracted_images/
+check_*.py
+generate_notebook.py
+build_zip.py
+list_images.py
+inspect_pbi_details.py
+get_pbix_columns.py
+*.txt
+!medidas_dax.txt
+
+# Large zip archives (keep repository lightweight)
+*.zip
+!Entrega_EV3_BigData_Bastian_Pablo.zip
+Netflix_StreamData pbix/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+

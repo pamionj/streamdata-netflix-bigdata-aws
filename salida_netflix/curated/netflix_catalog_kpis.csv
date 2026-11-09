@@ -1,0 +1,12 @@
+metric_name,metric_value,metric_unit,definition
+Total Titulos,8807,Unidades,Total de titulos unicos catalogados
+Total Peliculas,6131,Unidades,Titulos clasificados como Movie
+Total Series,2676,Unidades,Titulos clasificados como TV Show
+Proporcion Peliculas,69.62%,Porcentaje,Porcentaje de peliculas sobre el total
+Proporcion Series,30.38%,Porcentaje,Porcentaje de series sobre el total
+Paises Unicos,122,Paises,Cantidad de paises distintos en produccion
+Generos Unicos,42,Categorias,Cantidad de categorias listadas distintas
+Tono Positivo Sinopsis,37.95%,Porcentaje,Sinopsis con polaridad TextBlob > 0.10
+Tono Neutro Sinopsis,42.22%,Porcentaje,Sinopsis con polaridad TextBlob entre -0.10 y 0.10
+Tono Negativo Sinopsis,19.84%,Porcentaje,Sinopsis con polaridad TextBlob < -0.10
+Indice Renovacion Reciente,61.30%,Porcentaje,Titulos incorporados en 2019-2021 sobre fechas validas
